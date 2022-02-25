@@ -1,0 +1,24 @@
+lis = []
+Even = []
+Odd = []
+Number = int(input("How many elements in list :- "))
+ 
+for i in range(1, Number + 1):
+    value = int(input())
+    lis.append(value)
+ 
+for j in range(Number):
+    if(lis[j] % 2 == 0):
+        Even.append(lis[j])
+    else:
+        Odd.append(lis[j])
+ 
+print("\n Element in Even List is : ", Even)
+print("\n Element in Odd List is : ", Odd)
+How many elements in list :- 
+2
+3
+4
+Element in Even List is :  [4]
+
+ Element in Odd List is :  [3]
